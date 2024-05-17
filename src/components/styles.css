@@ -1,0 +1,30 @@
+/* styles.css */
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px 2px;
+    line-height: 1; /* Varmistaa, että symbolit eivät veny */
+}
+
+.btn-success {
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-danger {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
